@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raw Code 11</title>
+  <link rel="stylesheet" href="rawcode_styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><span>Description</span></h1>
+    <h2><span>Raw code 11</span></h2>
+
+    <div class="source-code">SOURCE CODE</div>
+
+    <pre class="source-code">
+      <span data-type="comment">// Author: Soumya kushwah &nbsp;Rollno: 2305823 &nbsp;Branch: Voc IT</span>
+      <span data-type="keyword">#include</span> <span data-type="string">&lt;iostream&gt;</span>
+      <span data-type="keyword">#include</span> <span data-type="string">&lt;iomanip&gt;</span>
+      <span data-type="keyword">using</span> <span data-type="keyword">namespace</span> std;
+      
+      <span data-type="keyword">int</span> main() {
+        <span data-type="keyword">string</span> warning = <span data-type="string">"File is corrupted"</span>;
+        cout << <span data-type="keyword">setfill</span>(<span data-type="char">'$'</span>) << <span data-type="keyword">setw</span>(<span data-type="number">25</span>);
+        cout << warning << <span data-type="keyword">endl</span>;
+        
+        <span data-type="keyword">return</span> <span data-type="number">0</span>;
+      }
+    </pre>
+
+    <div>
+      <strong>Code Explanation:</strong>
+      <ul>
+        <li>The program defines a string variable <code>warning</code> to store the message <code>"File is corrupted"</code>.</li>
+        <li>It uses <code>setfill('$')</code> and <code>setw(25)</code> to fill the space with <code>$</code> characters until the total width of 25 is achieved.</li>
+        <li>The message is then printed with the custom padding applied.</li>
+      </ul>
+      <p><span>(Note: The message "File is corrupted" will be printed with <code>$</code> symbols padding the left side to achieve a width of 25 characters.)</span></p>
+    </div>
+  </div>
+</body>
+</html>

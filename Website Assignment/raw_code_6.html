@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raw Code 6</title>
+  <link rel="stylesheet" href="rawcode_styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><span>Description</span></h1>
+    <h2><span>Raw code 6</span></h2>
+
+    <div class="source-code">SOURCE CODE</div>
+
+    <pre class="source-code">
+        <span data-type="comment">// Name: Soumya Kushwah &nbsp;Rollno: 2305823 &nbsp;Branch: VOC IT</span>
+      <span data-type="keyword">#include</span> <span data-type="string">&lt;iostream&gt;</span>
+      <span data-type="keyword">using</span> <span data-type="keyword">namespace</span> std;
+
+      <span data-type="keyword">int</span> main() {
+        <span data-type="keyword">char</span> choice;
+        <span data-type="keyword">float</span> value1, value2;
+
+        cout &lt;&lt; <span data-type="string">"----- Basic Calculator--------"</span> &lt;&lt; endl;
+        cout &lt;&lt; <span data-type="string">"Enter your choice : \n + : Addition \n - : Subtraction \n / : Division \n * : Multiplication"</span> &lt;&lt; endl;
+        cout &lt;&lt; <span data-type="string">"your input__"</span>;
+        cin &gt;&gt; choice;
+        cout &lt;&lt; <span data-type="string">"Enter the value1: "</span>;
+        cin &gt;&gt; value1;
+        cout &lt;&lt; <span data-type="string">"Enter the value2: "</span>;
+        cin &gt;&gt; value2;
+
+        <span data-type="keyword">switch</span>(choice) {
+          <span data-type="keyword">case</span> <span data-type="string">'+'</span>:
+            cout &lt;&lt; <span data-type="string">"Sum of value1 and value2 is "</span> &lt;&lt; (value1 + value2) &lt;&lt; endl;
+            <span data-type="keyword">break</span>;
+          <span data-type="keyword">case</span> <span data-type="string">'-'</span>:
+            cout &lt;&lt; <span data-type="string">"Difference of value1 and value2 is "</span> &lt;&lt; (value1 - value2) &lt;&lt; endl;
+            <span data-type="keyword">break</span>;
+          <span data-type="keyword">case</span> <span data-type="string">'/</span>:
+            cout &lt;&lt; <span data-type="string">"Division of value1 and value2 is "</span> &lt;&lt; (value1 / value2) &lt;&lt; endl;
+            <span data-type="keyword">break</span>;
+          <span data-type="keyword">case</span> <span data-type="string">'*'</span>:
+            cout &lt;&lt; <span data-type="string">"Multiplication of value1 and value2 is "</span> &lt;&lt; (value1 * value2) &lt;&lt; endl;
+            <span data-type="keyword">break</span>;
+          <span data-type="keyword">default</span>:
+            cout &lt;&lt; <span data-type="string">"Invalid Input!"</span> &lt;&lt; endl;
+        }
+
+        <span data-type="keyword">return</span> <span data-type="number">0</span>;
+      }
+    </pre>
+
+    <div>
+      <strong>Code Explanation:</strong>
+      <ul>
+        <li>The program provides a basic calculator that allows the user to choose an operation (+, -, *, /).</li>
+        <li>The user is asked to input two values, and the corresponding arithmetic operation is performed and displayed.</li>
+        <li>If an invalid operation is entered, the program displays an "Invalid Input!" message.</li>
+      </ul>
+      <p><span>(Note: The program handles addition, subtraction, multiplication, and division based on user input.)</span></p>
+    </div>
+  </div>
+</body>
+</html>

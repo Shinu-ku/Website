@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raw Code 12</title>
+  <link rel="stylesheet" href="rawcode_styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><span>Description</span></h1>
+    <h2><span>Raw code 12</span></h2>
+
+    <div class="source-code">SOURCE CODE</div>
+
+    <pre class="source-code">
+      <span data-type="comment">// Author: Soumya kushwah &nbsp;Rollno: 2305823 &nbsp;Branch: Voc IT</span>
+      <span data-type="keyword">#include</span> <span data-type="string">&lt;iostream&gt;</span>
+      <span data-type="keyword">#include</span> <span data-type="string">&lt;iomanip&gt;</span>
+      <span data-type="keyword">using</span> <span data-type="keyword">namespace</span> std;
+      
+      <span data-type="keyword">int</span> main() {
+        cout << <span data-type="keyword">setbase</span>(<span data-type="number">8</span>);
+        cout << <span data-type="number">25</span> << <span data-type="keyword">endl</span>;
+        cout << <span data-type="keyword">setbase</span>(<span data-type="number">16</span>);
+        cout << <span data-type="number">25</span> << <span data-type="endl">endl</span>;
+        cout << <span data-type="keyword">setbase</span>(<span data-type="number">10</span>);
+        cout << <span data-type="number">25</span> << <span data-type="keyword">endl</span>;
+
+        <span data-type="keyword">return</span> <span data-type="number">0</span>;
+      }
+    </pre>
+
+    <div>
+      <strong>Code Explanation:</strong>
+      <ul>
+        <li>The program uses <code>setbase</code> to change the base of numeric output in different formats:</li>
+        <li><code>setbase(8)</code> outputs the number <code>25</code> in octal format.</li>
+        <li><code>setbase(16)</code> outputs the number <code>25</code> in hexadecimal format.</li>
+        <li><code>setbase(10)</code> restores the number to decimal format.</li>
+      </ul>
+      <p><span>(Note: The program outputs the value <code>25</code> in different numeral bases: octal, hexadecimal, and decimal.)</span></p>
+    </div>
+  </div>
+</body>
+</html>
